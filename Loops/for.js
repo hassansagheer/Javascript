@@ -1,0 +1,8 @@
+for (var i = 1; i <= 5; i++) {
+    console.log('i', i);
+    if (i === 3) {
+      continue;
+    }
+    console.log('aplha');
+    console.log('aplha');
+}

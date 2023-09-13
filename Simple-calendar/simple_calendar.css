@@ -1,0 +1,23 @@
+ul li {
+    background: #3333cc;
+    color: white;
+    margin: 0.5px;
+    list-style-type: none;
+  }
+li:hover {
+  box-shadow: 2px 2px 5px red;
+}
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 5px;
+    /* background-color: #2196F3; */
+    padding: 10px;
+  }
+  
+  .grid-container > li {
+    /* background-color: black; */
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+  }
